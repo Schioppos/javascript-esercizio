@@ -52,5 +52,7 @@ console.log(numero4 - x)
 
 let name1 = "jonh"
 let name2 = "Jonh"
-let domanda = "name1 è uguale a name2"
-console.log(domanda,name1==name2)
+let question = "name1 è uguale a name2"
+console.log(question,name1===name2)
+name2 = name2.toLowerCase()
+console.log(question,name1==name2)
